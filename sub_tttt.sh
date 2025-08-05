@@ -27,5 +27,5 @@ source /users/bdillon/venvs/ml/bin/activate
 
 CONFIG_FILE='configs/tttt_params1.yml'
 
-python /users/bdillon/projects/tinn/rl/trainer.py --config "$CONFIG_FILE" --runname "$RUNNAME" --save_path "/users/bdillon/projects/tinn/results/$RUNNAME"
+python /users/bdillon/projects/tinn/rl/run.py --config "$CONFIG_FILE" --runname "$RUNNAME" --save_path "/users/bdillon/projects/tinn/results/$RUNNAME"
 
