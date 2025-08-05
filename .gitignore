@@ -3,6 +3,8 @@ logs/
 results/
 misc/
 .ipynb_checkpoints
+utils/.ipynb_checkpoints
+rl/.ipynb_checkpoints
 __pycache__/
 *.py[cod]
 .DS_Store
